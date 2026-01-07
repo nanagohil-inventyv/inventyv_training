@@ -2,67 +2,51 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Login System</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+  <title>Auth UI</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <div class="container">
 
-    <!-- LEFT SIDE -->
+  <div class="container">
+    <!-- LEFT (70%) -->
     <div class="left">
       <div class="image-circle"></div>
       <p>
-        Welcome! Please login or create a new account.
-        This demo is built using only HTML and CSS.
+        Welcome Login or create a new account to continue.
       </p>
     </div>
 
-    <!-- RIGHT SIDE -->
+    <!-- RIGHT (30%) -->
     <div class="right">
-
-      <!-- Radio Buttons -->
-      <input type="radio" name="form" id="login" checked>
-      <input type="radio" name="form" id="signup">
-      <!-- LOGIN -->
+      <input type="radio" name="tab" id="login" checked>
+      <input type="radio" name="tab" id="signup">
+      <div class="tabs">
+        <label for="login">Login</label>
+        <label for="signup">Signup</label>
+      </div>
       <div class="card login-card">
         <h2>Login</h2>
         <form method="post" action="/">
           <input type="email" placeholder="Email">
           <input type="password" placeholder="Password">
-
           <a href="#">Forgot password?</a>
           <button>Login</button>
-
-          <p>
-            Don't have an account?
-            <label for="signup" class="link">Signup</label>
-          </p>
+        </form>
       </div>
-      </form>
-
-      <!-- SIGNUP -->
       <div class="card signup-card">
-        <h2>Signup</h2>
-        <form action="/" method="post">
+        <form method="post" action="/">
+          <h2>Signup</h2>
           <input type="text" placeholder="Full Name">
           <input type="email" placeholder="Email">
           <input type="password" placeholder="Password">
           <button>Create Account</button>
-
-          <p>
-            Already have an account?
-            <label for="login" class="link">Login</label>
-          </p>
       </div>
       </form>
-
-
     </div>
   </div>
-
 </body>
 
 </html>
