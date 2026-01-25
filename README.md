@@ -9,7 +9,6 @@
 ```
 01_Logic_Building/
 ├── flow_charts.md
-
 ```
 
 ### Description
@@ -38,7 +37,6 @@ The focus here is on:
 This folder includes **frontend design tasks** using **HTML and CSS**.  
 
 ---
-
 ### 03_SQL_Query
 
 ### Folder Structure
@@ -46,7 +44,6 @@ This folder includes **frontend design tasks** using **HTML and CSS**.
 ``` 
 03_SQL_Query/
 ├── sql_query.md/
-
 ```
 ### Description
 
@@ -58,6 +55,26 @@ Topics include:
 - Subqueries and constraints
 - Real-world database problem-solving
 
+---
+04_JavaScript_Task
+
+### Folder Structure
+
+```
+04_JavaScript_Task/
+├──01_Task.js
+├──02_Task.js
+├──03_Task.js
+├──index.html
+├── README.md
+```
+
+### Description
+
+- **01_Task.js**: This task demonstrating the use of the `Array` and its related methods and also use of the `Promise` 
+- **02_Task.js**: This task demonstratin the use of the` Bitwise Operator` and `Logic Building` 
+- **03_Task.js**: This task demonstrating the use of the `Array` and its related methods and also use of the `Promise` and the `Symbols`
+
 
 ---
 ### 05_Exercism_Task
@@ -68,7 +85,6 @@ Topics include:
 05_Exercism_Task/
 ├──js/
 ├── README.md
-
 ```
 
 ### Description
@@ -112,7 +128,6 @@ Topics include:
 │   └── Cargo.lock
 │
 └── README.md
-
 ```
 
 ### Description
