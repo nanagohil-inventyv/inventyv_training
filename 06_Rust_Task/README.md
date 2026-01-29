@@ -56,5 +56,25 @@ serde_json = "1.0.128"
 > using `User` entity do the `Serialiazation` and `Deserialization`
 
 
+### 04_rwlock_mutex_Task
+
+- simple Rust project that demonstrates how to build a **server-style request tracker** using:
+    - `enum` for request modeling
+    - `lazy_static` for global initialization
+    - `ref` for the reference
+    - `Mutex` and `RwLock` for thread-safe shared state
+    - Pattern matching with `match`
+
+#### Concepts Convered:
+
+- `static variables`
+- `Mutex`
+- `RwLock`
+- `ref`
+- `enum`
+- `lazy_static!`
+
+
+
 
 

@@ -90,7 +90,8 @@ Topics include:
 ### Description
 
 - Coding practice problems from Exercism
-
+V
+---
 ### 06_Rust_Task
 
 ### Folder Structure
@@ -100,32 +101,38 @@ Topics include:
 ├── loops_task/
 │   ├── src/
 │   │   └── main.rs
-│   ├── target/
 │   ├── Cargo.toml
-│   ├── Cargo.lock
 │   └── README.md
 │
 ├── serde_json_Task/
 │   ├── user_deserialize/
 │   │   ├── src/
 │   │   │   └── main.rs
-│   │   ├── target/
 │   │   ├── Cargo.toml
-│   │   └── Cargo.lock
 │   │
 │   └── user_serialize/
 │       ├── src/
 │       │   └── main.rs
-│       ├── target/
 │       ├── Cargo.toml
-│       └── Cargo.lock
+│    
 │
 ├── struct_and_method_impl/
 │   ├── src/
 │   │   └── main.rs
-│   ├── target/
 │   ├── Cargo.toml
-│   └── Cargo.lock
+|
+├── rwlock_mutex_Task/
+│   ├── request_tracker_using_mutex/
+│   │   ├── src/
+│   │   │   └── main.rs
+│   │   ├── Cargo.toml
+|   |   └── README.md
+│   │
+│   └── request_tracker_using_rwlock/
+│       ├── src/
+│       │   └── main.rs
+│       ├── Cargo.toml
+|       └── README.md
 │
 └── README.md
 ```
@@ -136,7 +143,13 @@ Topics include:
 - **serde_json_Task**:
   - **user_serialize**: Serialize User struct into JSON using Serde.
   - **user_deserialize**: Deserialize JSON into User struct using Serde.
+
 - **struct_and_method_impl**: Rust structs with method implementations (getters, setters, and helpers).
+
+- **rwlock_mutex_Task**:
+  - **request_tracker_using_mutex**: Create the Request Tracker Server using Mutex.
+  - **request_tracker_using_Rwlock**:  Create the Request Tracker Server using RwLock.
+
 
 
 
