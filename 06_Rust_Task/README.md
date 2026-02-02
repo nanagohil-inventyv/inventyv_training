@@ -75,6 +75,11 @@ serde_json = "1.0.128"
 - `lazy_static!`
 
 
+### 05_packages_and_modules_task
 
+this task demonstrates that how we organize our big project into multiple `packages` , `modules` and `crates`.
 
-
+#### Concepts Convered:
+- `Packages`
+- `modules`
+- `crates`
