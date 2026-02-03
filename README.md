@@ -103,6 +103,12 @@ V
 │   │   └── main.rs
 │   ├── Cargo.toml
 │   └── README.md
+|
+├── ownership_of_struct/
+│   ├── src/
+│   │   └── main.rs
+│   ├── Cargo.toml
+|   └── README.md
 │
 ├── serde_json_Task/
 │   ├── user_deserialize/
@@ -129,10 +135,11 @@ V
 |   |   └── README.md
 │   │
 │   └── request_tracker_using_rwlock/
-│       ├── src/
-│       │   └── main.rs
-│       ├── Cargo.toml
-|       └── README.md
+│   |   ├── src/
+│   |   │   └── main.rs
+│   |   ├── Cargo.toml
+|   |   └── README.md
+|   └── README.md
 |
 ├── hashmap_task/
 │   ├── src/
@@ -155,6 +162,8 @@ V
 - **rwlock_mutex_Task**:
   - **request_tracker_using_mutex**: Create the Request Tracker Server using Mutex.
   - **request_tracker_using_Rwlock**:  Create the Request Tracker Server using RwLock.
+
+- **ownership_of_structure**: this project demonstrates a **ownership and borrowing**  consept using  `structure` type
 
 - **packages_and_modules** : Rust project that demonstrating the use of  `module`, `packages` and `crates`
 

@@ -99,3 +99,13 @@ This project demonstrates a **real-world Rust data structure** (`SessionManager`
 | `take()`        | Move a one-time value out safely        |
 | `retain()`      | Remove expired or invalid sessions      |
  
+
+### 07_ownership_of_structure
+
+this project demonstrates a **ownership and borrowing**  consept using  `structure` type
+
+#### Concepts Convered:
+- `ownership rules`
+- `borrowing rules`
+- `mutable borrow`
+- `immutable borrow`
