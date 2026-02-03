@@ -133,6 +133,12 @@ V
 │       │   └── main.rs
 │       ├── Cargo.toml
 |       └── README.md
+|
+├── hashmap_task/
+│   ├── src/
+│   │   └── main.rs
+│   ├── Cargo.toml
+|   └── README.md
 │
 └── README.md
 ```
@@ -151,6 +157,8 @@ V
   - **request_tracker_using_Rwlock**:  Create the Request Tracker Server using RwLock.
 
 - **packages_and_modules** : Rust project that demonstrating the use of  `module`, `packages` and `crates`
+
+- **hashmap_task** : This project demonstrates a **real-world Rust data structure** (`SessionManager`) that uses a `HashMap` to manage user sessions.
 
 
 

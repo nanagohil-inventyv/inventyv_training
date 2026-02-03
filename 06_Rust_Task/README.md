@@ -83,3 +83,19 @@ this task demonstrates that how we organize our big project into multiple `packa
 - `Packages`
 - `modules`
 - `crates`
+
+
+### 06_hashmap_taks
+
+This project demonstrates a **real-world Rust data structure** (`SessionManager`) that uses a `HashMap` to manage user sessions.
+
+#### Concepts Convered:
+
+| Method          | Purpose                                 |
+|-----------------|-----------------------------------------|
+| `try_reserve()` | Pre-allocate capacity safely            |
+| `extend()`      | Bulk insert / merge session data        |
+| `clone()`       | Create a snapshot for backup or rollback|
+| `take()`        | Move a one-time value out safely        |
+| `retain()`      | Remove expired or invalid sessions      |
+ 
