@@ -90,7 +90,7 @@ Topics include:
 ### Description
 
 - Coding practice problems from Exercism
-V
+
 ---
 ### 06_Rust_Task
 
@@ -98,6 +98,18 @@ V
 
 ```
 06_Rust_Task/
+├── hashmap_task/
+│   ├── src/
+│   │   └── main.rs
+│   ├── Cargo.toml
+|   └── README.md
+|
+├── inventory_management/
+│   ├── src/
+│   │   └── main.rs
+│   ├── Cargo.toml
+|   └── README.md
+|
 ├── loops_task/
 │   ├── src/
 │   │   └── main.rs
@@ -119,8 +131,7 @@ V
 │   └── user_serialize/
 │       ├── src/
 │       │   └── main.rs
-│       ├── Cargo.toml
-│    
+│       ├── Cargo.toml   
 │
 ├── struct_and_method_impl/
 │   ├── src/
@@ -141,12 +152,6 @@ V
 |   |   └── README.md
 |   └── README.md
 |
-├── hashmap_task/
-│   ├── src/
-│   │   └── main.rs
-│   ├── Cargo.toml
-|   └── README.md
-│
 └── README.md
 ```
 
@@ -169,5 +174,4 @@ V
 
 - **hashmap_task** : This project demonstrates a **real-world Rust data structure** (`SessionManager`) that uses a `HashMap` to manage user sessions.
 
-
-
+- **invetory_management** :  This project implements a **generic inventory system** that can store and manage different kinds of items.

@@ -109,3 +109,20 @@ this project demonstrates a **ownership and borrowing**  consept using  `structu
 - `borrowing rules`
 - `mutable borrow`
 - `immutable borrow`
+
+
+### 08_inventory_management 
+
+
+A simple Rust project that demonstrates how to build a **generic inventory management system** using:
+
+* `generics` and `trait bounds`
+* `HashMap` for efficient storage
+* Custom `enum` for domain-specific error handling
+* Trait-based polymorphism
+
+
+#### Concepts Convered:
+- `generics` and `trait bounds`
+- `collections HashMap vector etc` 
+- `custom error handling`
