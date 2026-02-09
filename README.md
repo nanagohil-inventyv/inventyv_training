@@ -109,6 +109,11 @@ Topics include:
 │   │   └── main.rs
 │   ├── Cargo.toml
 |   └── README.md
+├── inventory_management_with_closure_lifetimes/
+│   ├── src/
+│   │   └── main.rs
+│   ├── Cargo.toml
+|   └── README.md
 |
 ├── loops_task/
 │   ├── src/
@@ -175,3 +180,5 @@ Topics include:
 - **hashmap_task** : This project demonstrates a **real-world Rust data structure** (`SessionManager`) that uses a `HashMap` to manage user sessions.
 
 - **invetory_management** :  This project implements a **generic inventory system** that can store and manage different kinds of items.
+
+- **inventory_management_with_closure_and_lifetime** : This project implements a **generic inventory system** that can store and manage different kinds of items with the use of `closures` and `lifetimes`.
