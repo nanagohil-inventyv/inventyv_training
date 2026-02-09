@@ -39,7 +39,7 @@ This task focuses on Rust structs and implementations.
  
 This taks focuse on Rust Serde json 
 
-#### Concepts Convered:
+#### Concepts Covered:
 
 - Installing Ther serde json
 
@@ -65,7 +65,7 @@ serde_json = "1.0.128"
     - `Mutex` and `RwLock` for thread-safe shared state
     - Pattern matching with `match`
 
-#### Concepts Convered:
+#### Concepts Covered:
 
 - `static variables`
 - `Mutex`
@@ -79,7 +79,7 @@ serde_json = "1.0.128"
 
 this task demonstrates that how we organize our big project into multiple `packages` , `modules` and `crates`.
 
-#### Concepts Convered:
+#### Concepts Covered:
 - `Packages`
 - `modules`
 - `crates`
@@ -89,7 +89,7 @@ this task demonstrates that how we organize our big project into multiple `packa
 
 This project demonstrates a **real-world Rust data structure** (`SessionManager`) that uses a `HashMap` to manage user sessions.
 
-#### Concepts Convered:
+#### Concepts Covered:
 
 | Method          | Purpose                                 |
 |-----------------|-----------------------------------------|
@@ -104,7 +104,7 @@ This project demonstrates a **real-world Rust data structure** (`SessionManager`
 
 this project demonstrates a **ownership and borrowing**  consept using  `structure` type
 
-#### Concepts Convered:
+#### Concepts Covered:
 - `ownership rules`
 - `borrowing rules`
 - `mutable borrow`
@@ -122,7 +122,17 @@ A simple Rust project that demonstrates how to build a **generic inventory manag
 * Trait-based polymorphism
 
 
-#### Concepts Convered:
+#### Concepts Covered:
 - `generics` and `trait bounds`
 - `collections HashMap vector etc` 
 - `custom error handling`
+
+
+### 09_invetory_management_with_closure_and_lifetime
+
+#### Concepts Covered:
+
+- `generics` and `trait bounds`
+- `collections HashMap vector etc` 
+- `custom error handling`
+- `closures` and `lifetimes`
