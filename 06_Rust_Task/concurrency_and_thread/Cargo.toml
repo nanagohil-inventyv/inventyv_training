@@ -1,0 +1,12 @@
+[package]
+name = "concurrency_and_thread"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+lazy_static = "1.4.0"
+
+chrono = "0.4"
+
+rand = "0.9.1" 
