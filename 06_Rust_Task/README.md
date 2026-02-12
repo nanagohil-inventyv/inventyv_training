@@ -130,9 +130,24 @@ A simple Rust project that demonstrates how to build a **generic inventory manag
 
 ### 09_invetory_management_with_closure_and_lifetime
 
+This project implements a **generic inventory system** that can store and manage different kinds of items with the use of `closures` and `lifetimes`.
+
 #### Concepts Covered:
 
 - `generics` and `trait bounds`
 - `collections HashMap vector etc` 
 - `custom error handling`
 - `closures` and `lifetimes`
+
+
+### 10_concurrency_and_thread_task
+
+A simple Rust project that demonstrates how to build a **concurrent in-memory record system** using:
+
+#### Concepts Covered: 
+
+- `Arc` and `RwLock` for safe shared state
+- `AtomicI32` for lock-free unique ID generation
+- `chrono` for time-based record expiration
+- `thread::spawn`
+

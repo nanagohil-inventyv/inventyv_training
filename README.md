@@ -98,6 +98,12 @@ Topics include:
 
 ```
 06_Rust_Task/
+├── concurrency_and_thread/
+│   ├── src/
+│   │   └── main.rs
+│   ├── Cargo.toml
+|   └── README.md
+|
 ├── hashmap_task/
 │   ├── src/
 │   │   └── main.rs
@@ -109,6 +115,7 @@ Topics include:
 │   │   └── main.rs
 │   ├── Cargo.toml
 |   └── README.md
+|
 ├── inventory_management_with_closure_lifetimes/
 │   ├── src/
 │   │   └── main.rs
@@ -182,3 +189,7 @@ Topics include:
 - **invetory_management** :  This project implements a **generic inventory system** that can store and manage different kinds of items.
 
 - **inventory_management_with_closure_and_lifetime** : This project implements a **generic inventory system** that can store and manage different kinds of items with the use of `closures` and `lifetimes`.
+
+- **concurrency_and_thread_task**
+
+A simple Rust project that demonstrates how to build a **concurrent in-memory record system** using `multithreading`.

@@ -3,7 +3,7 @@
 A simple Rust project that demonstrates how to build a **generic inventory management system** using:
 
 * `generics` and `trait bounds`
-* `lifetimes` and `closuers`
+* `lifetimes` and `closures`
 * `HashMap` for efficient storage
 * Custom `enum` for domain-specific error handling
 
