@@ -155,6 +155,8 @@ A simple Rust project that demonstrates how to build a **concurrent in-memory re
 
 A simple Rust project that demonstrates how to build a **concurrent multi-threaded REST API server** using:
 
+#### Concepts Covered: 
+
 * `Arc` and `tokio::sync::RwLock` for safe shared state
 * `article.json` for efficient in-memory storage
 * `UUID` for unique ID generation

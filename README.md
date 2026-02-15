@@ -110,6 +110,17 @@ Topics include:
 │   ├── Cargo.toml
 |   └── README.md
 |
+├── http_server/
+│   ├── src/
+|   |     ├── main.rs
+|   |     ├── routes.rs
+|   |     ├── api.rs
+|   |     ├── model.rs
+|   |     ├── handler.rs
+|   ├── articles.toml
+│   ├── Cargo.toml
+|   └── README.md
+|
 ├── inventory_management/
 │   ├── src/
 │   │   └── main.rs
@@ -190,6 +201,6 @@ Topics include:
 
 - **inventory_management_with_closure_and_lifetime** : This project implements a **generic inventory system** that can store and manage different kinds of items with the use of `closures` and `lifetimes`.
 
-- **concurrency_and_thread_task**
+- **concurrency_and_thread_task** : A simple Rust project that demonstrates how to build a **concurrent in-memory record system** using `multithreading`.
 
-A simple Rust project that demonstrates how to build a **concurrent in-memory record system** using `multithreading`.
+- **http_server** :  A simple Rust project that demonstrates how to build a **concurrent multi-threaded REST API server** using `Axum` and `tokio`.
