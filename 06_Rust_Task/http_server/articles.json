@@ -1,0 +1,36 @@
+[
+  {
+    "id": "3f1a9c7e-6c54-4b0a-9a21-6a0c0d5f2a11",
+    "title": "Getting Started with Rust",
+    "content": "Rust is a systems programming language focused on safety and performance.",
+    "comments": [
+      {
+        "id": "8b7d0f5a-3a52-4d6b-9f2e-1e2c3d4a5b6c",
+        "author": "Shivam",
+        "text": "Great introduction! Very helpful."
+      },
+      {
+        "id": "2c9e1d7f-4b3a-4e91-a9f8-7b6c5d4e3f2a",
+        "author": "Rutu",
+        "text": "Can you also explain ownership in detail?"
+      }
+    ]
+  },
+  {
+    "id": "a1b2c3d4-e5f6-4789-9012-abcdef123456",
+    "title": "Getting Started with Rust and basic of rust........",
+    "content": "Rust is a systems programming language focused on safety and performance.",
+    "comments": [
+      {
+        "id": "8b7d0f5a-3a52-4d6b-9f2e-1e2c3d4a5b6c",
+        "author": "Shivam",
+        "text": "Great introduction! Very helpful."
+      },
+      {
+        "id": "2c9e1d7f-4b3a-4e91-a9f8-7b6c5d4e3f2a",
+        "author": "Jagruti",
+        "text": "Can you also explain ownership in detail?"
+      }
+    ]
+  }
+]

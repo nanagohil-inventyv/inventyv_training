@@ -151,3 +151,12 @@ A simple Rust project that demonstrates how to build a **concurrent in-memory re
 - `chrono` for time-based record expiration
 - `thread::spawn`
 
+### 11_http_server
+
+A simple Rust project that demonstrates how to build a **concurrent multi-threaded REST API server** using:
+
+* `Arc` and `tokio::sync::RwLock` for safe shared state
+* `article.json` for efficient in-memory storage
+* `UUID` for unique ID generation
+* `Tokio` multi-thread runtime for concurrent request handling
+* Background async tasks for non-blocking JSON persistence
