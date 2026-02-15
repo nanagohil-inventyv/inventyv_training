@@ -117,7 +117,7 @@ Topics include:
 |   |     ├── api.rs
 |   |     ├── model.rs
 |   |     ├── handler.rs
-|   ├── articles.toml
+|   ├── articles.json
 │   ├── Cargo.toml
 |   └── README.md
 |
